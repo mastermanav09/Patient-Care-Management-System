@@ -1,0 +1,29 @@
+{
+  "name": "pcms-server",
+  "version": "1.0.0",
+  "description": "Server for pcms project",
+  "main": "app.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Manav Naharwal",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15",
+    "pdfkit": "^0.13.0"
+  }
+}
